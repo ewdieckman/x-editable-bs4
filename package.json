@@ -1,24 +1,24 @@
 {
-  "name": "x-editable-bs4",
-  "title": "x-editable-bs4",
+  "name": "x-editable-bs4-ewd",
+  "title": "x-editable-bs4-ewd",
   "description": "In-place editing with Twitter Bootstrap, jQuery UI or pure jQuery",
-  "version": "1.5.4",
-  "homepage": "https://github.com/haught/x-editable-bs4",
+  "version": "1.5.5",
+  "homepage": "https://github.com/ewdieckman/x-editable-bs4",
   "author": {
     "name": "Vitaliy Potapov",
     "email": "noginsk@rambler.ru"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com:haught/x-editable-bs4.git"
+    "url": "git://github.com:ewdieckman/x-editable-bs4.git"
   },
   "bugs": {
-    "url": "https://github.com/haught/x-editable-bs4/issues"
+    "url": "https://github.com/ewdieckman/x-editable-bs4/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/haught/x-editable-bs4/blob/master/LICENSE-MIT"
+      "url": "https://github.com/ewdieckman/x-editable-bs4/blob/master/LICENSE-MIT"
     }
   ],
   "scripts": {
