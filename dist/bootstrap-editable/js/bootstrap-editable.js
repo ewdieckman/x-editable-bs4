@@ -1,7 +1,7 @@
-/*! X-editable - v1.5.3 
+/*! x-editable-bs4 - v1.5.4 
 * In-place editing with Twitter Bootstrap, jQuery UI or pure jQuery
-* http://github.com/vitalets/x-editable
-* Copyright (c) 2018 Vitaliy Potapov; Licensed MIT */
+* https://github.com/haught/x-editable-bs4
+* Copyright (c) 2019 Vitaliy Potapov; Licensed MIT */
 /**
 Form with single input element, two buttons and two states: normal/loading.
 Applied as jQuery method to DIV tag (not to form tag!). This is because form can be in loading state when spinner shown.
@@ -3805,6 +3805,8 @@ $(function(){
            } else {
               //can not get list of possible values 
               //(e.g. autotext for select2 with ajax source)
+              // added by EWD - who knows??
+              data = value;
            }
 
            //data may be array (when multiple values allowed)
@@ -5140,9 +5142,9 @@ Editableform based on Twitter Bootstrap 2
 						// Clicked outside the datepicker, hide it
 						if (!(
 							this.element.is(e.target) ||
-							this.element.find(e.target).size() ||
+							this.element.find(e.target).length ||
 							this.picker.is(e.target) ||
-							this.picker.find(e.target).size()
+							this.picker.find(e.target).length
 						)) {
 							this.hide();
 						}
